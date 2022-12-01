@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header/nav */
+li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.nav-one {
+  width: 40%;
+  margin: 2em 2em;
+  padding-left: 2em;
+}
+
+.nav-two {
+  width: 35%;
+  position: absolute;
+  left: 60%;
+  top: 2px;
+  margin: 1.5em 2em;
+  padding-right: 8em;
+  padding-left: 12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  left: 37%;
+  top: 0;
+}
+
+.logo-img {
+  width: 400px;
+}
+
+img {
+  width: 200px;
+}
+
+ul li button {
+  height: 4em;
+  width: 9em;
+  border-radius: 5%;
+  color: white;
+  background-color: rgb(253, 66, 66);
+}
+li a {
+  color: rgb(39, 35, 35);
+  text-decoration: none;
+}
+
+/* main content */
+main {
+  display: flex;
+  margin-top: 10em;
+}
+
+/* left side main */
+.wrapper {
+  width: 20%;
+  margin-left: 8em;
+  border-right: solid 1px rgb(202, 200, 200);
+}
+.content-two {
+  border-top: solid 1px rgb(202, 200, 200);
+  width: 95%;
+}
+.img-one {
+  width: 80%;
+  margin-left: 1em;
+}
+.img-two {
+  width: 80%;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.wrapper h3 {
+  margin-top: 1em;
+}
+.wrapper p {
+  margin: 1em 0;
+}
+
+/* middle main */
+.middle-content {
+  width: 45%;
+}
+.header-img {
+  width: 40em;
+  height: 350px;
+  padding-left: 4em;
+}
+h1 {
+  text-align: center;
+  margin-top: 1em;
+}
+.middle-content h3 {
+  text-align: justify;
+  width: 80%;
+  margin-top: 1em;
+  margin-left: 3.5em;
+}
+.middle-content p {
+  text-align: center;
+}
+
+/* right side main */
+.container {
+  width: 20%;
+  border-left: solid 1px rgb(202, 200, 200);
+}
+.container img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 1em;
+}
+.content-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.content-three {
+  /* border: solid 2px red; */
+  border-bottom: solid rgb(202, 200, 200) 1px;
+  margin: 1em 1em;
+}
+.content-four {
+  border-bottom: solid rgb(202, 200, 200) 1px;
+  margin: 1em 1em;
+}
+.content-five {
+  /* border: solid 2px red; */
+  border-bottom: solid rgb(202, 200, 200) 1px;
+  margin: 1em 1em;
+}
+.content-six {
+  /* border: solid 2px red; */
+  margin: 1em 1em;
+}
+.container p {
+  margin: 1em 1em;
+}
